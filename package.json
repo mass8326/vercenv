@@ -1,0 +1,26 @@
+{
+  "name": "vercenv",
+  "version": "0.0.1",
+  "description": "Loads environment variables pulled from the vercel cli",
+  "keywords": [
+    "vercel",
+    "env",
+    "dotenv",
+    "cli"
+  ],
+  "author": "Magnus Reyes <me@magnusreyes.com>",
+  "repository": "github:mass8326/vercenv",
+  "license": "MIT",
+  "bin": {
+    "vercenv": "bin.js"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.3",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^20.6.2",
+    "cross-spawn": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "dotenv-expand": "^10.0.0",
+    "minimist": "^1.2.8"
+  }
+}
